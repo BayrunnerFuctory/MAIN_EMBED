@@ -1,4 +1,4 @@
-#include "mbed.h"
+﻿#include "mbed.h"
 #include "typedef.h"
 #include "main.h"
 
@@ -23,7 +23,7 @@ DigitalOut myLED2(LED2);
 DigitalOut myLED3(LED3);
 DigitalOut myLED4(LED4);
 
-uint32  sys_taskCount   = 0;		///< メインループカウンタ
+uint32  sys_taskCount   = 0;		/////< メインループカウンタ
 BOOL    sys_onError     = FALSE;
 Ticker  eventTimer;					///イベントタイマ
 BOOL    mainTaskTimer;
